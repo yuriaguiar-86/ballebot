@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+h1, h3{
+    font-family: 'Righteous', 'Outfit', cursive, sans-serif;
+}
+h2, p, a, button{
+    font-family: 'Sarala', 'Outfit', 'Righteous', cursive, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+header img{
+    height: 65px;
+}
+header nav{
+    display: flex;
+    gap: 40px;
+}
+header nav a{
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+main{
+    margin-bottom: 50px;
+    border-top: 0.3px solid #FFF2E7;
+}
+main .section-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section .section-main-div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+section .section-main-div h1{
+    font-weight: 400;
+    font-size: 65px;
+    color: #FFF2E7;
+}
+section .section-main-div h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ECD6C4;
+}
+section .section-main-div button{
+    background-color: #ECD6C4;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    color: #2F2325;
+    transition: .2s ease-in;
+}
+main .section-second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+main .section-second h3{
+    border-top: 0.3px solid #FFF2E7;
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFF2E7;
+    margin-bottom: 20px;
+}
+main .section-second p{
+    font-weight: 300;
+    font-size: 13px;
+    color: #ECD6C4;
+}
+
+footer{
+    padding: 30px;
+    border-top: 0.3px solid #FFF2E7;
+}
+footer img{
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* EVENTS */
+header nav a:hover{
+    color: #ecc9ac;
+    border-bottom: 1px solid #8E5D52;
+}
+section .section-main-div button:hover{
+    background-color: #ecc9ac;
+    box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.25);
+    transition: .2s ease-in;
+    cursor: pointer;
+}
